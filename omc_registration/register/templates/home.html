@@ -1,0 +1,26 @@
+{% load static %}
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <title>OMC Club</title>
+</head>
+<body>
+    <section id="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="https://github.com/isif00">Github</a></li>
+                <li><a href="https://twitter.com/sifodz18">Twitter</a></li>
+                <li><a href="https://salmisifeddine.itch.io/">Itch.io</a></li>
+            </ul>
+        </div>
+        <div class="intro">{% lorem 2 b random %}</div>
+</body>
+
+</html>
